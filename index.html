@@ -27,53 +27,32 @@
       <div class="d-flex">
         <input
           type="text"
-          class="form-control me-2"
-          placeholder="Bangladesh"
+          class="form-control me-2 w-50 mx-auto"
+          placeholder="Book Search"
           id="searchInput"
         />
-        <button class="btn btn-dark" id="search-btn">Search</button>
+        <button  onclick="searchBook()" class="btn btn-dark" id="search-btn">Search</button>
       </div>
     </section>
     <section class="container">
-      <!-- Country Details -->
-      <div class="row" id="country-details"></div>
+    
+      <div class="row" id="book-details"></div>
       <hr />
     </section>
-    <section class="container mt-2">
+    <section class="container mt-lg-5">
       <div id="error"></div>
-      <!-- Countries -->
-      <!-- Spinner -->
-      <div class="text-center">
-        <div id="spinner" class="spinner-border d-none" role="status">
-          <span class="visually-hidden">Loading...</span>
-        </div>
-      </div>
-      <div id="country-container" class="row">
+      
+     
+      <div id="book-container" class="row">
         <!-- Reapeating -->
-        <!-- <div class="col-md-3 col-12">
+         <div class="col-md-3 col-12">
         
-          <div class="rounded overflow-hidden border p-2">
-            <img
-              src="https://restcountries.eu/data/umi.svg"
-              class="w-100"
-              alt=""
-            />
-          </div>
-          
           <div
-            class="
-              py-2
-              d-flex
-              justify-content-between
-              align-items-center
-              d-md-block
-              text-md-center
-            "
-          >
-            <h1>Bangladesh</h1>
-            <button class="btn btn-dark">Learn More</button>
+            class=" py-2  d-flex  justify-content-between  align-items-center  d-md-block  text-md-center ">
+   
+           
           </div>
-        </div> -->
+        </div>
         <!-- Repeating -->
       </div>
     </section>
